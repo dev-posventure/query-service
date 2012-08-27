@@ -13,7 +13,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class SampleMain extends AbstractMain {
 	private static final Logger logger = Logger.getLogger(SampleMain.class);
-
+ 
 	//console로 받는 전역 변수 
 	private String date;
 
