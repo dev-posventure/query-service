@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 /**
- * @author hdlee
+ * @author asd
  * @see : 지급 요청
  */
 @Service
@@ -23,8 +23,8 @@ public class AGAPA0101 extends AbstractSqlQueryService{
 	List<Excel> excelList = new ArrayList<Excel>();
 
 	public AGAPA0101() {
-		Excel excel = new Excel("지급처","1","아라산업","6078136064","","003020","우리","020","(주)아라산업","96023101230","232,321,323","수당","연구비 수당");
-		Excel excel2 = new Excel("사원","2","이학도","12X00006","마케팅팀","003020","우리","020","이학도","76070104038537","2,321,321,323","월급","프로젝트 수행 수당");
+		Excel excel = new Excel("지급처","1","asdsd","6078136064","","003020","우리","020","(주)아라산업","960231012310","2232,321,323","수당","연구비 수당");
+		Excel excel2 = new Excel("사원","2","asa","12X00006","마케팅팀","003020","우리","020","sdsd","760701040385323","5,321,321,323","월급","프로젝트 수행 수당");
 		excelList.add(excel);
 		excelList.add(excel2);
 	}
